@@ -1,0 +1,369 @@
+/* Global Style Sheet */
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'sen';
+    perspective: 200px;
+}
+div.container {
+    padding: 0 10px;
+}
+/* ----------------- */
+
+/* Header Style Sheet */
+header .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 0;
+}
+header .logo a {
+    font-size: 2.5rem;
+    color: black;
+    text-decoration: none;
+}
+header .logo a span {
+    color: darkred;
+}
+header .social ul {
+    list-style: none;
+}
+header .social ul li {
+    display: inline-block;
+    font-size: .9rem;
+    margin: 0 8px;
+}
+header .social ul li a {
+    color: black;
+    text-decoration: none;
+}
+header .social ul li a:hover .fa-youtube {
+    color: red;
+}
+header .social ul li a:hover .fa-linkedin {
+    color: #0073b1;
+}
+header .social ul li a:hover .fa-instagram {
+    background-image:  linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -o-background-clip: text;
+    color: transparent;
+}
+header .social ul li a i {
+    font-size: 1rem;
+    vertical-align: middle;
+}
+header .social ul li a span {
+    padding-left: 6px;
+    vertical-align: middle;
+}
+header nav {
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header nav button {
+    display: none;
+    background: transparent;
+    border: none;
+}
+header nav button i {
+    font-size: 1.2rem;
+}
+header nav > a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+    line-height: 100%;  
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+    padding: 10px 0;
+    position: relative;
+}
+header nav ul li ul {
+    position: absolute;
+    display: none;
+    top: 42px;
+    left: -20px;
+    z-index: 2;
+    background: white;
+    width: max-content;
+    transition: bottom 300ms linear;
+}
+header nav ul li ul li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+header nav ul li ul li:hover {
+    background: #ddd;
+}
+header nav ul li ul li a {
+    font-size: .9rem;
+    padding: 12px 24px;
+    display: inline-block;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+header nav ul li:hover ul {
+    display: block;
+}
+/* ------------------ */
+
+
+/* Start Global Articles Styling */
+.article {
+    border-radius: 3px;
+    box-shadow: 0 0 9px -7px #000;
+    padding: 4px;
+    transition: transform 300ms linear;
+}
+.article .article-tmb {
+    position: relative;
+    border-radius: 4px;
+    background: url('../Images/Articles/1.jpg');
+    background-size: cover;
+    padding: 8px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+.article .article-tmb::after {
+    content: '';
+    display: block;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .4);
+}
+.article .article-tmb h4 {
+    font-weight: 300;
+    font-size: 1.1rem;
+    color: #fffd;
+    text-transform: capitalize;
+    position: relative;
+    z-index: 1;
+    padding: 16px 8px;
+}
+.article .article-tmb h4.mst-r {
+    font-size: 1.8rem;
+}
+.article .info {
+    padding: 3px;
+    color: rgb(128, 128, 128);
+    font-family: roboto;
+    font-size: 0.9rem;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+}
+.article:hover {
+    transform: scale(1.02);
+}
+/* --------------------------- */
+
+/* Section Style Sheet */
+section .most-read {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+section h2 {
+    font-size: 3rem;
+    margin: 10px;
+    width: 100%;
+    font-weight: 200;
+    flex-basis: 100%;
+}
+section .most-read .first-most {
+    width: 60%;
+    margin-right: 20px;
+}
+section .most-read .first-most .article .article-tmb {
+    height: 370px;
+}
+
+section .most-read .sec-third-most {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+section .latest-updated h2 {
+    margin-top: 30px;
+}
+section .latest-updated .articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+section .latest-updated .article {
+    flex-basis: 23%;
+    margin-bottom: 16px;
+}
+section .latest-updated .pageprog {
+    text-align: center;
+    padding: 20px 0;
+}
+section .latest-updated .pageprog a {
+    text-decoration: none;
+    color: black;
+    margin-left: 8px;
+}
+section .latest-updated .pageprog a:hover {
+    text-decoration: underline;
+}
+section .latest-updated .pageprog a.active {
+    text-decoration:underline;
+}
+/* ------------------------ */
+
+/* Footer Style Sheet */
+footer .feed-privacy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+footer .feed-privacy form {
+
+}
+footer .feed-privacy form input {
+    border: 1px solid #333;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: .9rem;
+    vertical-align: middle;
+}
+footer .feed-privacy form button {
+    border: 1px solid #333;
+    border-radius: 4px;
+    padding: 4px 8px;
+    vertical-align: middle;
+    background: white;
+    font-weight: lighter;
+}
+footer .feed-privacy form button:hover {
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+footer .feed-privacy .priv-terms {
+    
+}
+footer .feed-privacy .priv-terms a {
+    color: #333;
+    text-decoration: none;
+}
+footer .feed-privacy .priv-terms a:hover {
+    color: black;
+}
+footer .copyright {
+    background: black;
+    color: #ccc;
+    text-align: center;
+    font-family: 'tahoma';
+    font-weight: lighter;
+    padding:10px;
+    font-size: .9rem;
+}
+/* --------------------------- */
+
+/* Responsive Style Sheet */
+@media (max-width: 690px) {
+    section .most-read .first-most,
+    section .most-read .sec-third-most {
+        flex-basis: 100%;
+        width: auto;
+        margin: 0;
+        margin-bottom: 8px;
+    }
+    section .latest-updated .article {
+        flex-basis: 48%;
+        margin-bottom: 16px;
+    }
+    header .social ul li a span {
+        display: none;
+    }
+    header nav {
+        position: relative;
+        justify-content: space-between;
+    }
+    header nav button {
+        display: block;
+    }
+    header nav ul {
+        display: none;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 39px;
+        left: 0;
+        width: 100%;
+        background: white;
+        z-index: 2;
+    }
+    header nav ul.show {
+        display: flex;
+    }
+    header nav ul li {
+        display: block;
+        flex-basis: 44%;
+    }
+    header nav ul li ul {
+        display: block;
+        position: static;
+    }
+}
+@media (max-width: 625px) {
+    
+    footer .feed-privacy {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    footer .feed-privacy .priv-terms {
+        padding-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    
+}
+@media (max-width: 500px) {
+    section h2 {
+        font-size: 1.9rem;
+    }
+    header nav ul.show {
+        display: block;
+        width: 100%;
+    }
+    header nav ul li ul {
+        width: 100%;
+    }
+}
+/* ------------------------- */
