@@ -1,0 +1,90 @@
+[
+    {
+        "id": "1",
+        "arrangement": 1,
+        "watch": "847",
+        "date": "10 May 2020",
+        "title": "Artifical Intelligence Can Predict Your Illness In The Future",
+        "thumbnail": "../Images/Articles/1.jpg"
+    },
+    {
+        "id": "2",
+        "arrangement": 2,
+        "watch": "734",
+        "date": "10 May 2020",
+        "title": "Benefits & risks of artificial intelligence",
+        "thumbnail": "../Images/Articles/Ai-Benefits-Risks.png"
+    },
+    {
+        "id": "3",
+        "arrangement": 3,
+        "watch": "498",
+        "date": "10 May 2020",
+        "title": "Digital Marketing Made Simple",
+        "thumbnail": "../Images/Articles/Digital-Marketing.jpg"
+    },
+    {
+        "id": "4",
+        "arrangement": 4,
+        "watch": "498",
+        "date": "10 May 2020",
+        "title": "8 Best Ecommerce Platforms",
+        "thumbnail": "../Images/Articles/Ecommerce-Platforms-Tmb.jpg"
+    },
+    {
+        "id": "5",
+        "arrangement": 5,
+        "watch": "498",
+        "date": "10 May 2020",
+        "title": "The Best Smart Home Devices for 2020",
+        "thumbnail": "../Images/Articles/Smart-Home-Devices.jpg"
+    },
+    {
+        "id": "6",
+        "arrangement": 6,
+        "watch": "498",
+        "date": "10 May 2020",
+        "title": "What does a software engineer do?",
+        "thumbnail": "../Images/Articles/Software-engineer.jpg"
+    },
+    {
+        "id": "7",
+        "arrangement": 7,
+        "watch": "498",
+        "date": "10 May 2020",
+        "title": "The Evolution of the JavaScript Programming Language",
+        "thumbnail": "../Images/Articles/Javascript-Evolution.jpeg"
+    },
+    {
+        "id": "8",
+        "arrangement": 8,
+        "watch": "498",
+        "date": "10 May 2020",
+        "title": "Top App Analytics Companies (2020)",
+        "thumbnail": "../Images/Articles/Analytics-App.jpg"
+    },
+    {
+        "id": "9",
+        "arrangement": 9,
+        "watch": "498",
+        "date": "10 May 2020",
+        "title": "Programming Languages You Should Learn in 2020",
+        "thumbnail": "../Images/Articles/Programming-Language-Should-Learn.png"
+    },
+    {
+        "id": "10",
+        "arrangement": 10,
+        "watch": "498",
+        "date": "10 May 2020",
+        "title": "Sass Evolution",
+        "thumbnail": "../Images/Articles/Sass-Evolution.png"
+    },
+    {
+        "id": "11",
+        "arrangement": 11,
+        "watch": "498",
+        "date": "10 May 2020",
+        "title": "5 reasons you should learn python now",
+        "thumbnail": "../Images/Articles/Should-Learn-Python.jpg"
+    }
+]
